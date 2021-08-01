@@ -1,0 +1,6 @@
+def switch(shown_door, num_doors, player_choice):
+  i = 1
+  while (i == shown_door or i== player_choice ):
+    i = (i+1)%(num_doors)
+  
+  return i
