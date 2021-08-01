@@ -1,7 +1,0 @@
-# We want to reveal a door which has no prize in it
-def door(host, num_doors, player_choice):
-  i = 1
-  while (i == host or i== player_choice ):
-    i = (i+1)%(num_doors)
-  
-  return i
